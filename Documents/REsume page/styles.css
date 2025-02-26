@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: 0;
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    font-family: inter;
+    
+    height: 100vh;
+    padding: 0 7%;
+}
+
+.hero{
+    margin-top: 70px;
+    padding-bottom:  50px; 
+}
+/*header*/
+header{
+    padding: 20px;
+}
+
+.right-section{
+    margin-right: 100px;
+}
+
+.navbar {
+    position: fixed; /* Makes the navbar stay fixed when scrolling */
+    top: 0; /* Stick it to the top */
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    width: 100%; /* Full width of the page */
+    left: 0;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    background-blend-mode: difference;
+}
+
+#header,nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: color 0.12s;
+}
+
+nav .active{ 
+    color: #3fa2f6;
+}
+
+.nav-item:hover{
+    color: #3fa2f6;
+}
+
+.nav-item:active{
+    transform: scale(1.1);
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800; 
+    margin-left: 100px;
+}
+
+/* Hero section*/
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+/*Left*/
+
+.hero-left{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+h3{
+    font-size: 2rem;
+    color: #3fa2f6;
+    font-weight: 800;
+    padding-bottom: 25px;;
+}
+
+p{
+    font-size: 1.2rem;
+    color: lightgrey;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.cta button{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 50px ;
+    background-color: #3fa2f6;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: scale(5.2s);
+
+}
+
+.cta button:active{
+    transform: scale(1.1);
+}
+.cta .cta-2{
+    background-color: transparent;
+    color: #3fa2f6;
+    border: 2px solid #3fa2f6;
+    padding: 13px 0;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    gap: 25px ;
+    
+}
+
+.social-icon i{
+    font-size: 40px;
+    color: #3fa2f6;
+    border-radius: 50px;
+    border: 1px solid #3fa2f6;
+    padding: 30px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 12ms;
+}
+
+.social-icon i:hover{
+    border: 5px solid #3fa2f6;
+    transition: 12ms;
+    transform: scale(1.1);
+}
+
+.hero-right{
+    background-image: url(sonu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 10px;
+    margin: 30px;
+    
+}
+/*about me*/
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
+}
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    box-shadow: 0px 4px 12px white;
+    border-radius: 8px;
+}
+
+/* Left Carousel Section */
+.carousel-container1 {
+    width: 60%;
+    overflow: hidden;
+    
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item1 {
+    min-width: 100%;
+    padding: 20px;
+}
+
+.carousel-item1 h2 {
+    color: #3fa2f6;
+}
+
+.carousel-item1 p {
+    color: whitesmoke;
+    font-size: 20px;
+
+    line-height: 1.6;
+}
+
+/* Carousel buttons */
+.carousel-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Right Details Section */
+.details1 {
+    border-radius: 5px;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.details1 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+.details1 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.details1 th {
+    background-color: #3fa2f6;
+}
+
+/*work*/
+
+
+.worktext{
+    text-align: center;
+
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    margin:200px 0;
+}
+
+.workcontainer{
+
+    border: 1px solid #3fa2f6;
+    box-shadow: 0 0 1rem var(--white);
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    height: 100vh;
+    border-radius: 2rem;
+    
+
+}
+carousel-container {
+    margin: 20px;
+    background-color: white; 
+    padding: 15px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.carousel-container h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem;
+     
+}
+
+.carousel-inner img {
+    width: 100%; 
+    height: 35vh;
+
+    object-fit: cover;
+}
+
+
+
+/*contact*/
+
+h2{
+    line-height: 1.5;
+}
+.contact{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+textarea{
+    width:350px;
+}
+table{
+    
+    gap: 1rem;
+    
+}
+.container {
+    border: 1px solid #3fa2f6;
+    box-shadow: 0 0 1rem var(--white);
+    padding: 2rem;
+    width: 100%;
+    max-width: 425px;
+    border-radius: 2rem;
+    
+}
+
+.form-input {
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 50px;
+    
+}
+
+
+table{
+    width: 100%;
+  
+}
+
+.form-dropdown{
+    display: flex;
+   justify-content: center;
+}
+
+td input{
+    width: 100%;
+}
+
+td:hover {
+    background-color: rgb(148, 148, 188);
+}
+button {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover {
+    background-color: slategray;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea,
+        input[type="email"] {
+            color: black;
+        }
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #3fa2f6;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2.2rem;
+
+}

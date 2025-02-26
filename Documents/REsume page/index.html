@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Sonu George </title>
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--font-awesome-->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+
+    
+</head>
+
+<body>
+    <!--navbar -->
+    <header id="header" class="navbar">
+        <div class="left-section">
+            <a class="logo" href="#">Sonu.</a>
+        </div>
+
+        <div class="right-section">
+            <nav>
+                <a class="nav-item active" href="#hero">Home</a>
+                <a class="nav-item" href="#about">About me</a>
+                <a class="nav-item" href="#work">Works</a>
+                <a class="nav-item" href="#contact">Contact me</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--hero-section-->
+    <section id="hero" name="hero" class="hero">
+        <div class="hero-left">
+            <div class="content">
+                <h1>Hi, I'm Sonu George </h1>
+                <h3>Creative Web Designer / Photographer</h3>
+                <p>
+                    Hi, I'm Sonu George, a creative designer and photographer specializing in capturing the energy
+                    of live concerts and the timeless beauty of black-and-white artistic photography. With a
+                    keen eye for detail, I transforms dynamic performances into powerful visuals and everyday
+                    scenes into evocative, monochrome art, merging creativity with emotion in every shot.
+                    My work stands out for its ability to blend the raw energy of live music with the classic
+                    elegance of black-and-white storytelling.
+
+                </p>
+
+                <div class="cta">
+                    <button class="cta-1">Hire me</button>
+                    <a href="#contact">
+                    <button class="cta-2">Contact me</button>
+                    </a>
+                </div>
+            
+
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/key_router/">
+                    <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.behance.net/sonugeorge2">
+                    <i class="bi bi-behance"></i>
+                    </a>
+                    <a href="https://wa.me/918078543044" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                    </a>
+
+                </div>
+            </div>    
+
+        </div>
+        <div class="hero-right">
+            
+
+        </div>
+
+    </section>
+
+    <!--About me-->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-me">
+            
+            <!-- Left Carousel Section -->
+            <div class="carousel-container1">
+                
+                <div class="carousel" id="carousel">
+                    <div class="carousel-item1">
+                        <h2>About Me </h2>
+                        <p>Hello! I'm Sonu George, a passionate web developer with a love for creative and efficient designs. I enjoy learning new technologies and continuously improving my skills.</p>
+                    </div>
+                    <div class="carousel-item1">
+                        <h2>Specifications</h2>
+                        <p>I specialize in front-end development, working with HTML, CSS, and JavaScript. My focus is on building user-friendly, responsive websites that look great on all devices.</p>
+                    </div>
+                    <div class="carousel-item1">
+                        <h2>Interests</h2>
+                        <p>When I'm not coding, I love reading books, exploring new music, and traveling to new places. Feel free to connect with me on social media!</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-buttons">
+                    <button onclick="prevSlide()">Previous</button>
+                    <button onclick="nextSlide()">Next</button>
+                </div>
+            </div>
+    
+            <!-- Right Table Section -->
+            <div class="details1">
+                <h3>Personal Details</h3>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td>Sonu George</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Birth</th>
+                        <td>08/03/2005</td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>Male</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>sonu.george@xaviers.edu.in</td>
+                    </tr>
+                    <tr>
+                        <th>Phone</th>
+                        <td>+91 80785 43044</td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td>Worli, Mumbai</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--work-->
+    <section class="work" id="work">
+    
+            <div class="workcontainer">
+                <h2 class="worktext">Our Projects</h2>
+        
+                <div class="grid-container">
+                    <!-- Carousel 1 -->
+                    <div class="carousel-container">
+                        <h4>WISH X MALHAR</h4>
+                        <div id="carousel1" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="wish.JPG" alt="Project 1 Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="wish2.JPG" alt="Project 1 Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="wish3.JPG" alt="Project 1 Image 3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <!-- Carousel 2 -->
+                    <div class="carousel-container">
+                        <h4>YASHRAJ X MALHAR</h4>
+                        <div id="carousel2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="yash4.JPG" alt="Project 2 Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="yash7.JPG" alt="Project 2 Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="yash11.JPG" alt="Project 2 Image 3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <!-- Carousel 3 -->
+                    <div class="carousel-container">
+                        <h4>BAND BATTLE</h4>
+                        <div id="carousel3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="DSC06660.JPG" alt="Project 3 Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="DSC06778.JPG" alt="Project 3 Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="DSC06810.JPG" alt="Project 3 Image 3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <!-- Carousel 4 -->
+                    <div class="carousel-container">
+                        <h4>IMRAN KHAN </h4>
+                        <div id="carousel4" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="DSC04421.JPG" alt="Project 4 Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="DSC04412.JPG"Project 4 Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="DSC04593.JPG" alt="Project 4 Image 3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section> 
+
+
+    <!--contact -->
+    <section class="contact" id="contact" name="contact">
+        <h2> Contact me</h2>
+        <div class="container">
+            <form action="formtry.php" method="post" onsubmit="return validateForm()">
+                <table>
+                    <tr><td>
+                        <div class="form-input">
+                            <lable for="name">Name: </lable><br>
+                            <input type='text' id="name" name='name'>
+                            <div class="error" id="nameError"></div>
+                        </div>
+                    </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                        <div class="form-input">
+                            <lable for="email">Email:</lable><br>
+                            <input type='text' id="email" name='email'>
+                            <div class="error" id="emailError"></div>
+                        </div>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                        <div class="form-input">
+                            <lable for="msg">Message: </lable><br>
+                            <textarea name="msg" id="msg" placeholder="Your Message goes Here!" required="" maxlength="250"></textarea>
+                        </div>
+                        </td>
+                    </tr>
+
+                </table>
+                <div class="form-dropdown">
+                <button type="submit"> SUBMIT</button>
+                </div>
+            </form>
+
+        </div>    
+    </section>
+
+    <script>
+         function validateForm() {
+            // Get form fields
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+
+            // Get error display elements
+            const nameError = document.getElementById('nameError');
+            const emailError = document.getElementById('emailError');
+
+            // Reset error messages
+            nameError.innerHTML = '';
+            emailError.innerHTML = '';
+
+            let valid = true;
+
+            // Name validation (not empty and only letters)
+            const nameRegex = /^[A-Za-z\s]+$/;
+            if (name === '') {
+                nameError.innerHTML = 'Name is required.';
+                valid = false;
+            } else if (!nameRegex.test(name)) {
+                nameError.innerHTML = 'Name should only contain letters.';
+                valid = false;
+            }
+
+            // Email validation (basic pattern check)
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (email === '') {
+                emailError.innerHTML = 'Email is required.';
+                valid = false;
+            } else if (!emailRegex.test(email)) {
+                emailError.innerHTML = 'Please enter a valid email address.';
+                valid = false;
+            }
+
+            // Return false if the form is invalid to prevent submission
+            return valid;
+        }
+
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            const carousel = document.getElementById('carousel');
+            const totalSlides = document.querySelectorAll('.carousel-item1').length;
+
+            // Ensure the index stays within bounds
+            if (index >= totalSlides) {
+                currentSlide = 0;
+            } else if (index < 0) {
+                currentSlide = totalSlides - 1;
+            } else {
+                currentSlide = index;
+            }
+
+            // Move the carousel to the selected slide
+            carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+    </script>
+
+
+    <!-- Bootstrap JS, jQuery, and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <!--footer-->
+    
+    <footer>
+        Sonu George 2024
+    </footer> 
+</body>
+
+</html>
